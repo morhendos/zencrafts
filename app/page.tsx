@@ -7,7 +7,7 @@ export default function Page() {
         {/* Logo */}
         <div className="w-40 h-40 relative mx-auto mb-8">
           <Image
-            src="/logo.png"
+            src="/zencrafts-transparent.png"
             alt="Zen Circle Logo"
             width={160}
             height={160}
