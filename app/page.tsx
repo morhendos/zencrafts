@@ -30,7 +30,7 @@ export default function Page() {
             Where code meets consciousness.
           </p>
           <p className="text-xl md:text-2xl text-gray-600 tracking-wide">
-            A studio of thoughtful software solutions.
+            Creating software that flows like a calm river.
           </p>
         </div>
 
