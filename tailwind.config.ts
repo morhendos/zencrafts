@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        covered: ['var(--font-covered)'],
+        marker: ['var(--font-marker)'],
       },
     },
   },
