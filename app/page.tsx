@@ -21,8 +21,7 @@ export default function Page() {
           ZenCrafts
         </h1>
         <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-16 tracking-wide">
-          A curated collection of mindfully crafted software solutions. 
-          Currently in meditation, emerging soon.
+          Where code meets consciousness. A sanctuary of thoughtful software solutions.
         </p>
 
         {/* Footer */}
