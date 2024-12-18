@@ -17,16 +17,16 @@ export default function Page() {
         </div>
 
         {/* Title and Description */}
-        <h1 className="text-5xl md:text-6xl font-bold text-gray-800 mb-6 tracking-wide">
-          ZenCrafts
+        <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
+          ZenCrafts.tech
         </h1>
-        <p className="text-lg md:text-xl text-gray-700 max-w-2xl mx-auto mb-16 leading-relaxed">
+        <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-16">
           A curated collection of mindfully crafted software solutions. 
           Currently in meditation, emerging soon.
         </p>
 
         {/* Footer */}
-        <footer className="text-gray-500">
+        <footer className="text-gray-400">
           <p className="text-sm">
             Embracing emptiness, awaiting purpose.
           </p>
@@ -35,4 +35,3 @@ export default function Page() {
     </div>
   )
 }
-
