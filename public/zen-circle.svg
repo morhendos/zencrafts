@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Outer circle for zen circle completion -->
+  <path
+    d="M100 10
+       a90 90 0 0 1 0 180
+       a90 90 0 0 1 0 -180"
+    fill="none"
+    stroke="#333"
+    stroke-width="8"
+    stroke-linecap="round"
+    stroke-dasharray="600"
+    stroke-dashoffset="-50"
+  />
+  <!-- Inner brush stroke -->
+  <path
+    d="M60 100
+       c0,-50 80,-50 80,0
+       c0,50 -80,50 -80,0"
+    fill="none"
+    stroke="#333"
+    stroke-width="12"
+    stroke-linecap="round"
+  />
+</svg>
