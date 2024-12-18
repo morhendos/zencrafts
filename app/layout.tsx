@@ -1,10 +1,13 @@
 import '@/styles/globals.css'
-import { Inter } from 'next/font/google'
+import { Noto_Serif_JP } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const notoSerifJP = Noto_Serif_JP({ 
+  subsets: ['latin'],
+  weight: ['400', '700']
+})
 
 export const metadata = {
-  title: 'ZenCrafts.tech - Mindfully Crafted Software',
+  title: 'ZenCrafts - Mindfully Crafted Software',
   description: 'A curated collection of mindfully crafted software solutions.',
 }
 
@@ -15,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={notoSerifJP.className}>{children}</body>
     </html>
   )
 }

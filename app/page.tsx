@@ -17,17 +17,17 @@ export default function Page() {
         </div>
 
         {/* Title and Description */}
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
-          ZenCrafts.tech
+        <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4 tracking-wide">
+          ZenCrafts
         </h1>
-        <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-16">
+        <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-16 tracking-wide">
           A curated collection of mindfully crafted software solutions. 
           Currently in meditation, emerging soon.
         </p>
 
         {/* Footer */}
         <footer className="text-gray-400">
-          <p className="text-sm">
+          <p className="text-sm tracking-wider">
             Embracing emptiness, awaiting purpose.
           </p>
         </footer>
