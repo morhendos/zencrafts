@@ -17,7 +17,7 @@ export default function Page() {
         </div>
 
         {/* Title and Description */}
-        <h1 className="font-covered text-5xl md:text-6xl text-gray-800 mb-4 tracking-wide">
+        <h1 className="font-marker text-5xl md:text-6xl text-gray-800 mb-4 tracking-wide">
           ZenCrafts
         </h1>
         <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-16 tracking-wide">

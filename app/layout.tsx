@@ -1,5 +1,5 @@
 import '@/styles/globals.css'
-import { Noto_Serif_JP, Covered_By_Your_Grace } from 'next/font/google'
+import { Noto_Serif_JP, Permanent_Marker } from 'next/font/google'
 
 const notoSerifJP = Noto_Serif_JP({ 
   subsets: ['latin'],
@@ -7,10 +7,10 @@ const notoSerifJP = Noto_Serif_JP({
   variable: '--font-noto-serif'
 })
 
-const coveredByYourGrace = Covered_By_Your_Grace({
+const permanentMarker = Permanent_Marker({
   weight: '400',
   subsets: ['latin'],
-  variable: '--font-covered'
+  variable: '--font-marker'
 })
 
 export const metadata = {
@@ -25,7 +25,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${notoSerifJP.variable} ${coveredByYourGrace.variable} ${notoSerifJP.className}`}>{children}</body>
+      <body className={`${notoSerifJP.variable} ${permanentMarker.variable} ${notoSerifJP.className}`}>{children}</body>
     </html>
   )
 }
